@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:f="/lib/form">
+
+    <f:entry field="args" title="Arguments for generate the flamegraph">
+        <f:textbox/>
+    </f:entry>
+    
+    <f:entry field="seconds" title="Seconds for calculate the measurements">
+        <f:textbox/>
+    </f:entry>
+ 
+<!-- Se comenta para futura ampliacion
+ 	<f:entry name="goalType" title="Choose FlameGrahp Type" field="goalType">
+    	<select name="goalType">
+        	<option value="cpuFlame">CPU FlameGraph</option>
+        	<option value="memoryFlame">MEMORY FlameGraph</option>
+        	<option value="offCpuFlame">OFF CPU FlameGraph</option>
+        	<option value="differentialFlame">DIFERENTIAL FlameGraph</option>        
+    	</select>
+	</f:entry> --> 	
+
+</j:jelly>

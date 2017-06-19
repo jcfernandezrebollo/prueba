@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Group-Id: urjc.tfg
+Short-Name: flamegraph-pipeline-plugin
+Long-Name: FlameGraph Pipeline Plugin
+Url: https://google.es
+Plugin-Version: 1.0-SNAPSHOT (private-06/19/2017 11:58-juancarlos)
+Hudson-Version: 2.41
+Jenkins-Version: 2.41
+Plugin-Dependencies: workflow-step-api:2.9
+Plugin-Developers: 
+Libraries: /home/juancarlos/Documents/workspace-sts-3.8.2.RELEASE/flam
+ egraph-pipeline-plugin/src/main/resources,/home/juancarlos/Documents/
+ workspace-sts-3.8.2.RELEASE/flamegraph-pipeline-plugin/target/classes
+Resource-Path: /home/juancarlos/Documents/workspace-sts-3.8.2.RELEASE/
+ flamegraph-pipeline-plugin/src/main/webapp
+
